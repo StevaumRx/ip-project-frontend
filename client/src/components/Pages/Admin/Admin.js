@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
+import Button from '../../GlobalComponents/Button'
 
 class Admin extends Component{
     render(){
@@ -8,6 +10,12 @@ class Admin extends Component{
                 <div className = 'ipp-admin-helloworld'>
                     Hello World Admin!
                 </div>
+
+                <Link to='/'>Go back</Link>
+
+                <Button>
+                    Click Me
+                </Button>
                 
             </div>
         )

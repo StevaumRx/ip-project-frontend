@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "css-loader": "^1.0.0",
+    "moment": "^2.22.2",
     "normalize.css": "^8.0.0",
     "path": "^0.12.7",
     "react": "^16.4.2",
