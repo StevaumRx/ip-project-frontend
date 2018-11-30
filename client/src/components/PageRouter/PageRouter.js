@@ -4,6 +4,7 @@ import NavigationBar from '../NavigationBar/NavigationBar';
 import ContactUs from '../Pages/ContactUs/ContactUs';
 import Home from '../Pages/Home/Home';
 import Admin from '../Pages/Admin/Admin';
+import Button from '../GlobalComponents/Button';
 
 class PageRouter extends Component{
     render(){
@@ -12,6 +13,7 @@ class PageRouter extends Component{
 
                 <Route exact path = '/' component = { Home } />
                 <Route path = '/admin' component = { Admin } />
+            
                 
             </div>
             )
